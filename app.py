@@ -6,6 +6,7 @@ lines = f.readlines()
 view=[]
 for line in lines:
     view.append(int(line))
+f.close()
 st.write('# 메이플 스탯공격력 변화')
 st.write('## raw')
 view
